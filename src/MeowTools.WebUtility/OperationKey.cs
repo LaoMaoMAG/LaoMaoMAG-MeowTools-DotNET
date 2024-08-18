@@ -90,7 +90,6 @@ public class OperationKey
     private void ReadKeyFile()
     {
         string json = File.ReadAllText(KeyFilePath);
-        if(json is "" or "{}") return;
         KeyTable = JSON.ToData(json);
     }
 

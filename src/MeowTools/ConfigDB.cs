@@ -3,10 +3,10 @@ using LiteDB;
 namespace MeowTools;
 
 /// <summary>
-/// 配置文件数据库
+/// 配置文件数据库类
 /// 本模块基于LitDB实现
 /// </summary>
-public class ConfigDb
+public class ConfigDB
 {
 	// 配置文件路径
 	public string ConfigFilePath { get; }
@@ -32,7 +32,7 @@ public class ConfigDb
 	/// <summary>
 	/// 构造方法
 	/// </summary>
-	public ConfigDb(string configFilePath, string configName)
+	public ConfigDB(string configFilePath, string configName)
 	{
 		// 初始化成员
 		ConfigFilePath = configFilePath;

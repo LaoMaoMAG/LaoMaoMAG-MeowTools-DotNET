@@ -12,12 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a91f47e-7ae0-4088-8585-1cc72cb543f4" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MeowTools/ConfigJson.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MeowTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MeowTools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeowTools.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MeowTools.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeowTools.Test/MeowTools.Test.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeowTools.Test/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeowTools/Config.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeowTools/MeowTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeowTools/MeowTools.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeowTools.DebugTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeowTools.DebugTest/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeowTools.WebUtility/OperationKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeowTools.WebUtility/OperationKey.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeowTools/ConfigDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeowTools/ConfigDB.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,12 @@
     &quot;assignee&quot;: &quot;LaoMaoMAG&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:LaoMaoMAG/MeowTools-DotNET.git",
-    "accountId": "9c48c4d5-d113-48d0-a9ee-3a8800f5e50a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:LaoMaoMAG/MeowTools-DotNET.git&quot;,
+    &quot;accountId&quot;: &quot;9c48c4d5-d113-48d0-a9ee-3a8800f5e50a&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -61,6 +60,7 @@
     ".NET 项目.MeowTools.DebugTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,8 +177,26 @@
       <option name="presentableId" value="Default" />
       <updated>1723981349582</updated>
       <workItem from="1723981350857" duration="1709000" />
-      <workItem from="1723987387231" duration="5365000" />
+      <workItem from="1723987387231" duration="5656000" />
+      <workItem from="1724001941818" duration="6627000" />
     </task>
+    <task id="LOCAL-00001" summary="操作密钥模块">
+      <option name="closed" value="true" />
+      <created>1723992959697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723992959697</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修正">
+      <option name="closed" value="true" />
+      <created>1723993019773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723993019773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +204,21 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="操作密钥模块" />
+    <MESSAGE value="修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正" />
   </component>
 </project>

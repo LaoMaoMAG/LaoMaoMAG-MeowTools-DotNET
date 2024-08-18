@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowTools", "src\MeowTools\MeowTools.csproj", "{2E383F9B-C386-41F8-A1E1-9D80B66B4438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowTools.Test", "src\MeowTools.Test\MeowTools.Test.csproj", "{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowTools.WebUtility", "src\MeowTools.WebUtility\MeowTools.WebUtility.csproj", "{71793461-2543-40D5-A0AF-872D0D489EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowTools.DebugTest", "src\MeowTools.DebugTest\MeowTools.DebugTest.csproj", "{430E9A94-36B4-4A12-B960-B86F44C3FEBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,13 @@ Global
 		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71793461-2543-40D5-A0AF-872D0D489EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71793461-2543-40D5-A0AF-872D0D489EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71793461-2543-40D5-A0AF-872D0D489EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71793461-2543-40D5-A0AF-872D0D489EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430E9A94-36B4-4A12-B960-B86F44C3FEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430E9A94-36B4-4A12-B960-B86F44C3FEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430E9A94-36B4-4A12-B960-B86F44C3FEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430E9A94-36B4-4A12-B960-B86F44C3FEBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

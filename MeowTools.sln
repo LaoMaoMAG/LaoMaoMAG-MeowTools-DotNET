@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowTools", "src\MeowTools\MeowTools.csproj", "{2E383F9B-C386-41F8-A1E1-9D80B66B4438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowTools.Test", "src\MeowTools.Test\MeowTools.Test.csproj", "{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E383F9B-C386-41F8-A1E1-9D80B66B4438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D88A76-5BD3-4BC8-B3B2-AF06655BEE32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

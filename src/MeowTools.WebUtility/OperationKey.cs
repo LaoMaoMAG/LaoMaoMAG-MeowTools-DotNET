@@ -39,10 +39,13 @@ public class OperationKey
         {
             using StreamWriter writer = new StreamWriter(KeyFilePath, false);
             writer.WriteLine("{}");
+            KeyTable = new(JsonData.Type.Object);
         }
-
-        // 读取密钥
-        ReadKeyFile();
+        else
+        {
+            // 读取密钥
+            ReadKeyFile();
+        }
     }
 
     

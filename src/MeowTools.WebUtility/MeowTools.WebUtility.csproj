@@ -10,4 +10,8 @@
       <PackageReference Include="DanKeJson" Version="1.3.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="VerCode\" />
+    </ItemGroup>
+
 </Project>

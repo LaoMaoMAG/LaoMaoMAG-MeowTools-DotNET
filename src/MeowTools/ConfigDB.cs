@@ -6,7 +6,7 @@ namespace MeowTools;
 /// 配置文件数据库类
 /// 本模块基于LitDB实现
 /// </summary>
-public class ConfigDB
+public class ConfigDb
 {
 	// 配置文件路径
 	public string ConfigFilePath { get; }
@@ -32,7 +32,7 @@ public class ConfigDB
 	/// <summary>
 	/// 构造方法
 	/// </summary>
-	public ConfigDB(string configFilePath, string configName)
+	public ConfigDb(string configFilePath, string configName)
 	{
 		// 初始化成员
 		ConfigFilePath = configFilePath;

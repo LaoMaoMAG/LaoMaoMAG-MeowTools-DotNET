@@ -17,6 +17,10 @@ public class ConfigDb
 	public LiteDatabase Data { get; }
 	// 配置数据
 	private ILiteCollection<ConfigData> ConfigCollection { get; }
+	// 数据库连接表
+	private static Dictionary<string, LiteDatabase> DbConnTable = new();
+	// 数据库名称表
+	// private static Dictionary<string, List<string>> DbNameTable = new();
 
 	
 	/// <summary>
@@ -38,8 +42,11 @@ public class ConfigDb
 		ConfigFilePath = configFilePath;
 		ConfigName = configName;
 		
+		// 如果连接不存在创建连接
+		if (!DbConnTable.ContainsKey(ConfigFilePath)) DbConnTable[ConfigFilePath] =  new LiteDatabase(ConfigFilePath);
+		
 		// 连接数据库
-		Data = new LiteDatabase(ConfigFilePath);
+		Data = DbConnTable[ConfigFilePath];
 		
 		// 创建配置表
 		ConfigCollection = Data.GetCollection<ConfigData>(ConfigName);
